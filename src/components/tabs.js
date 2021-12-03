@@ -1,3 +1,5 @@
+import axios from "axios";
+
 // ✅ TASK 3
 // ---------------------
 // Implement this function which takes an array of strings ("topics") as its only argument.
@@ -11,8 +13,6 @@
 //   <div class="tab">bootstrap</div>
 //   <div class="tab">technology</div>
 // </div>
-
-import axios from "axios";
 
 const Tabs = (topics) => {
   // create DOM elements
